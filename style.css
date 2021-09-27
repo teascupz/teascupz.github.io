@@ -1,0 +1,56 @@
+body {background-color:#D9CEFF
+}
+
+
+h1{
+font-size: 2 Sem;
+color:#3CDD3C;
+//#3D93A3
+background-color: #FFEFDS;
+background-color:#E7EAF6}
+
+img{
+width:360px;
+height:270px;
+border: 4px solid 
+#774CFF;
+}
+
+#frog {
+color:#35C4A0;
+padding: 10px;
+background-color:#E7EAF6}
+
+.rating {
+color:#33BBBB;
+}
+
+#byline{
+font-style:italic
+background-color:#E7EAF6;
+}
+.titles {font-weight:bold;
+}
+h2{
+font-size: 2 Sem;
+color:#3CDD3C;
+//#3D93A3
+background-color: #FFEFDS;
+text-decoration: underline;
+background-color:#E7EAF6}
+
+h3{
+font-size: 2 Sem;
+color:#3D93A3;
+//#3D93A3
+text-decoration: underline;
+}
+p, br{
+color:#3D93A3;
+padding:10px
+background-color:#E7EAF6;
+}
+li{
+color:#16AD87
+;
+}
