@@ -1,56 +1,112 @@
-body {background-color:#D9CEFF
-}
-
-
-h1{
-font-size: 2 Sem;
-color:#3CDD3C;
-//#3D93A3
-background-color: #FFEFDS;
-background-color:#E7EAF6}
-
 img{
-width:360px;
-height:270px;
-border: 4px solid 
-#774CFF;
-}
-
-#frog {
-color:#35C4A0;
-padding: 10px;
-background-color:#E7EAF6}
-
-.rating {
-color:#33BBBB;
-}
-
-#byline{
-font-style:italic
-background-color:#E7EAF6;
-}
-.titles {font-weight:bold;
-}
-h2{
-font-size: 2 Sem;
-color:#3CDD3C;
-//#3D93A3
-background-color: #FFEFDS;
-text-decoration: underline;
-background-color:#E7EAF6}
-
-h3{
-font-size: 2 Sem;
-color:#3D93A3;
-//#3D93A3
-text-decoration: underline;
-}
-p, br{
-color:#3D93A3;
-padding:10px
-background-color:#E7EAF6;
-}
-li{
-color:#16AD87
-;
-}
+    width:35%;
+    height:5%;
+    float:left;
+      padding: 0,10,0,0;
+    background-color:#621940;
+    }
+    body{
+    background-color: #4b23a0;
+    }
+    .text{
+      color: #daf6ff;
+      text-align: justify;
+      text-decoration:bold;
+    }
+    h2{
+    background-color: #0b032d;
+      color: #ffb997;
+    }
+    h3{
+    color: #f67e7d;
+    }
+    .containter{
+    background-color:#900fdf;
+    margin:25px auto;
+      width:50%;
+    height:60%;
+      padding:8px;
+    }
+    #sec2{
+    background-color:#f9c2fb;
+    }
+    
+    header ul
+    {
+    list-style-type: none;
+    background-color:#c2fbdc;
+    overflow:hidden;
+    }
+    header li{
+    color:#dcc2fb;
+    float: left;
+    display: block;
+    font-size:2em;
+    padding:12px;
+    
+    }
+    .cursor {
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        transition-duration: 200ms;
+        transition-timing-function: ease-out;
+        animation: cursorAnim .5s infinite alternate;
+        pointer-events: none;
+    }
+    
+    .cursor::after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        border: 8px rgb(224, 187, 228);
+        border-radius: 50%;
+        opacity: .5;
+        top: -8px;
+        left: -8px;
+        animation: cursorAnim2 .5s infinite alternate;
+    }
+    
+    @keyframes cursorAnim {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(.7);
+        }
+    }
+    
+    @keyframes cursorAnim2 {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(.4);
+        }
+    }
+    
+    @keyframes cursorAnim3 {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(3);
+        }
+        100% {
+            transform: scale(1);
+            opacity: 0;
+        }
+    }
+    
+    .expand {
+        animation: cursorAnim3 .5s forwards;
+        border: 1px solid pink;
+    }
+    
+    .button{
+    color:#843b62;
+    background-color:#0b032d;
+    }
