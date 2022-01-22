@@ -1,6 +1,6 @@
 img{
-    width:35%;
-    height:5%;
+    width: 300px; px;
+    height:260px;
     float:left;
       padding: 0,10,0,0;
     background-color:#621940;
@@ -11,6 +11,7 @@ img{
     .text{
       color: #daf6ff;
       text-align: justify;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-decoration:bold;
     }
     h2{
@@ -20,7 +21,7 @@ img{
     h3{
     color: #f67e7d;
     }
-    .containter{
+    .container{
     background-color:#900fdf;
     margin:25px auto;
       width:50%;
