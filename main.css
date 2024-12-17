@@ -3,111 +3,55 @@ img{
     height:260px;
     float:left;
       padding: 0,10,0,0;
-    background-color:#b7b7a4;
+/**background image color **/
+    background-color:#9ED7E6;
     }
     body{
+/**body color **/
     background-color: #d4c7b0;
     }
     .text{
-      color: #daf6ff;
+/**big main top text color **/
+      color: #9ED7E6;
       text-align: justify;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-decoration:bold;
     }
     h2{
-    background-color: #0b032d;
-      color: #ffb997;
+/**body text color **/
+    background-color: #00072D;
+      color: #2a9df4;
     }
     h3{
-    color: #b7b7a4;
+    color: #2a9df4;
     }
     .container{
-    background-color:#cb997e;
+    background-color:#292D53;
     margin:25px auto;
       width:50%;
     height:60%;
       padding:8px;
     }
     #sec2{
-    background-color:#f9c2fb;
+    background-color:#292D53;
     }
     
     header ul
     {
     list-style-type: none;
-    background-color:#c2fbdc;
+    background-color:#365880;
     overflow:hidden;
     }
     header li{
-    color:#dcc2fb;
+    color:#9ED7E6;
     float: left;
     display: block;
     font-size:2em;
     padding:12px;
     
     }
-    .cursor {
-        width: 20px;
-        height: 20px;
-        border: 1px solid black;
-        border-radius: 50%;
-        position: absolute;
-        transition-duration: 200ms;
-        transition-timing-function: ease-out;
-        animation: cursorAnim .5s infinite alternate;
-        pointer-events: none;
-    }
-    
-    .cursor::after {
-        content: "";
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        border: 8px rgb(224, 187, 228);
-        border-radius: 50%;
-        opacity: .5;
-        top: -8px;
-        left: -8px;
-        animation: cursorAnim2 .5s infinite alternate;
-    }
-    
-    @keyframes cursorAnim {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(.7);
-        }
-    }
-    
-    @keyframes cursorAnim2 {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(.4);
-        }
-    }
-    
-    @keyframes cursorAnim3 {
-        0% {
-            transform: scale(1);
-        }
-        50% {
-            transform: scale(3);
-        }
-        100% {
-            transform: scale(1);
-            opacity: 0;
-        }
-    }
-    
-    .expand {
-        animation: cursorAnim3 .5s forwards;
-        border: 1px solid pink;
-    }
     
     .button{
-    color:#843b62;
-    background-color:#0b032d;
+    color:#9ED7E6;
+    background-color:#03254c;
     }
