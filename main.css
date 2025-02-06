@@ -1,14 +1,14 @@
 img{
     width: 300px;
-    height:260px;
+    height:300px;
     float:left;
       padding: 0,10,0,0;
 /**background image color **/
-    background-color:#9ED7E6;
+    background-color:#A0C3F5;
     }
     body{
 /**body color **/
-    background-color: #03254c;
+    background-color: #0D1727;
     }
     .text{
 /**big main top text color **/
