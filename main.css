@@ -19,18 +19,18 @@ img{
     }
     h2{
 /**body text color **/
-    background-color: #00072D;
-      color: #2a9df4;
+    background-color: #A0C3F5;
+      color: #424CFB;
     }
     h3{
     color: #2a9df4;
     }
     .container{
-    background-color:#292D53;
+    background-color:#DDD8C4;
     margin:25px auto;
-      width:50%;
-    height:60%;
-      padding:8px;
+      width:40%;
+    height:30%;
+      padding:6px;
     }
     #sec2{
     background-color:#292D53;
@@ -52,6 +52,10 @@ img{
     }
     
     .button{
-    color:#9ED7E6;
-    background-color:#03254c;
+    color:#0800FF;
+    background-color:#A0C3F5;
+            margin:15px auto;
+      width:10%;
+    height:10%;
+      padding:3px;
     }
