@@ -52,8 +52,13 @@ img{
     .button{
     color:#0800FF;
     background-color:#A0C3F5;
-            margin:15px auto;
-      width:10%;
-    height:10%;
-      padding:3px;
+    padding: 10px 24px;
+  text-decoration: none;
+  display: inline-block;
+         transition-duration: 0.4s;
     }
+
+.button:hover {
+  background-color: #A0C3F5; /* Green */
+  color: white;
+}
