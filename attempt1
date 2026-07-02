@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>
+Adrienagain
+</title>
+<h2>
+Adrienagain's blog loading...
+</h2>
+</head>
+
+<!-- That was just to set up the top/starting thing -->
+<body>
+<!-- First row -->
+<div class = "row">
+ <div class = "1st column">
+  <div class = "welcome">
+   <div class="img1"> Image </div>
+     <h5> hi </h5>
+  </div>
+  <div class = welcome>
+   <div class="img2"> Image </div>
+  </div>
+  <div class = welcome>
+   <h3> Link buttons!! </h3>
+    <button class="button" onclick="location.href='credits.html'">
+        CREDITS & SOCIALS
+    </button>   
+    <button class="button" onclick="location.href='codingport.html'">
+        PORTFOLIO CODING
+    </button>   
+      <button class="button" onclick="location.href='moreabtme.html'">
+        MORE ABT ME
+    </button>   
+      <button class="button" onclick="...">
+        Go to old website
+    </button> 
+  </div>
+ </div>
+
+<!-- second row -->
+
+<div class="2nd column">
+    <div class="about">
+      <h2>About Me</h2>
+      <h4> Artist/programmer</h4>
+<br>
+      <h4> Compsci Major </h4>
+<br>
+      <h4> Languages: English, Spanish and some Portuguese </h4>
+<br>
+      <h4> I love art, fashion, psychological horror, and gaming.
+    </div>
+
+    <div class="fandoms">
+      <h3>Popular Post</h3>
+      <div class="alnstimg">Image</div><br>
+      <div class="robloximg">Image</div><br>
+      <div class="MCimg">Image</div><br>
+      <div class="drimg">Image</div>
+    </div>
+    <div class="socials">
+      <h3>Follow Me</h3>
+          <a href="https://www.tiktok.com/@adrienagain?_r=1&_t=ZP-97hkuOQOMWc" class="button">tiktok</a>
+          <a href="https://x.com/adrienatfnaf" class="button">Twitter</a>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>
